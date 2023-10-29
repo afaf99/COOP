@@ -1,0 +1,8 @@
+CREATE TABLE REFRENC.hospitals  (
+	id BIGINT IDENTITY PRIMARY KEY NOT NULL,
+	hospital VARCHAR(50) UNIQUE NOT NULL,
+	created_on DATETIME NOT NULL,
+	created_by BIGINT NOT NULL,
+	update_on DATETIME,
+	updated_by BIGINT
+)
